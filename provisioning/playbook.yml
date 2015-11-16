@@ -1,0 +1,23 @@
+---
+
+- hosts: all
+  sudo: yes
+  roles:
+    # common
+    - franklinkim.apt
+    - franklinkim.ntp
+    - franklinkim.git
+    - franklinkim.ssh
+    - franklinkim.vim
+    - franklinkim.cron
+    - franklinkim.timezone
+    - franklinkim.environment
+    # databases
+    - franklinkim.mysql
+    # tools
+    - franklinkim.openssl
+    - franklinkim.htpasswd
+    # app
+    - franklinkim.apache2
+    - franklinkim.php5
+    - franklinkim.composer

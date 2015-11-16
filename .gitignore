@@ -1,0 +1,7 @@
+.*
+*~
+/build/
+/packer_cache/
+!.editorconfig
+!.clog.toml
+!.git*
